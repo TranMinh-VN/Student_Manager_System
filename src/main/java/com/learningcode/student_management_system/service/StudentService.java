@@ -73,18 +73,5 @@ public class StudentService {
         studentRepository.deleteById(id);
     }
 
-    //Map tay
-    /*public StudentResponse maptoStudentResponse(Student student) {
-        StudentResponse response = new StudentResponse();
 
-        response.setId(student.getId());
-        response.setStudentCode(student.getStudentCode());
-        response.setFullName(student.getFirstName() + " " + student.getLastName());
-        response.setEmail(student.getEmail());
-        response.setDob(student.getDob());
-        response.setGender(student.getGender());
-        response.setGpa(student.getGpa());
-
-        return response;
-    }*/
 }

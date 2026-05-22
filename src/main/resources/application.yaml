@@ -1,12 +1,15 @@
-  server:
-    port: 8080
+server:
+  port: 8080
 
-  spring:
-    datasource:
-      url: "jdbc:mysql://localhost:3308/student_management_system"
-      username: root
-      password: root
-    jpa:
-      hibernate:
-        ddl-auto: update
-      show-sql: true
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3308/student_management_system"
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+    signerKey: "1f3477d0f88ac0f1b56a80ee99d4f61c5790a912d134228d133eb2b9b6a6bc69"

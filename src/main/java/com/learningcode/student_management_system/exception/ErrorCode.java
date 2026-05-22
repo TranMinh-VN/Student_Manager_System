@@ -18,6 +18,7 @@ public enum ErrorCode {
     PASSWORD_REQUIRED(1014, "Password is required"),
     PASSWORD_INVALID(1015, "Password must be at least 8 characters"),
 
+    UNAUTHENTICATED(2001, "Unauthenticated"),
     INVALID_KEY(9998, "Invalid message key"),
     UNCATEGORIZED_EXCEPTION(9999, "Uncategorized exception error"),
     ;
